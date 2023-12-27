@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<meta name=”viewport” content=”width:device-width”, initiale-scale=1.0”>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="sketch.js"></script>
+    <title>Filippa Strandlund</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krona+One&family=Krub&family=Kumbh+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="navigation">
+        <button id="btn_home" onclick="scrollToHome()">home</button>
+        <button id="btn_projects" onclick="scrollToProjects()">projects</button>
+        <button id="btn_aboutme" onclick="scrollToAboutMe()">about me</button>
+        <button id="btn_contact" onclick="scrollToContact()">contact</button>
+    </div>
+    <div id="home">
+        <div class="column">
+            <div class="imgcontainer">
+                <img src="images/logo.png"> </img>
+            </div>
+        </div>
+        <div class="column">
+            <h1>Filippa Strandlund</h1>
+            <h2>lets reinvent design.</h2>
+        </div>
+    </div>
+    <div id="projects">
+        <h2>3D PROJECTS</h2>
+        <div class="project">
+            <h1>SMEG HAND MIXER</h1>
+            <div class="imgcontainer">
+                <img src="images/smeg/smeg.svg">
+                <div class="overlay">
+                    <p id="smeg-text">Smeg Hand Mixer is a CAD-model created in SolidWorks and rendered in PhotoView360.
+                        The goal of the project was to choose a real life object and make the CAD-model as similar as
+                        possible.</p>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <h1>SURFACE JUG</h1>
+            <div class="imgcontainer">
+                <img src="images/jug/jug.svg">
+                <div class="overlay">
+                    <p id="jug-text">This jug is created out of surfaces in SolidWorks and rendered in PhotoView360. The
+                        style of the jug is inspired by Georg Jensen's Cobra Collection.</p>
+                </div>
+            </div>
+        </div>
+        <h2>CODING PROJECTS</h2>
+        <div class="project">
+            <h1>FOOD TOWER DEFENSE</h1>
+            <a href="https://i6.cims.nyu.edu/~afs9050/interactive/midterm%20project/index.html">
+                <div class="imgcontainer">
+                    <img src="images/ftd/ftd.svg">
+                    <div class="overlay">
+                        <p id="ftd-text">Food Tower Defense is a variation of Bloons Tower Defense. The user is supposed
+                            to
+                            purchase and place restaurant towers along a path in order to capture ingredients. The
+                            game is developed in JavaScript and HTML, together with Rui Zhang.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="project">
+            <h1>ASL Alphabet Game</h1>
+            <a href="https://i6.cims.nyu.edu/~afs9050/interactive/assignment06/assignment06.html">
+                <div class="imgcontainer">
+                    <img src="images/asl/asl.svg">
+                    <div class="overlay">
+                        <p id="asl-text">ASL Alphabet Game is an application that trains the user in the American Sign
+                            Language Alphabet. The application is developed in JavaScript, CSS, and HTML. In order for
+                            the application to recognize the signs, a machine learning model has been trained on various
+                            fingerspelled letters. </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="aboutme">
+        <div id="basedinsthlm">Based in Stockholm, currently in New York City.</div>
+        <div class="work">
+            <h2>EDUCATION</h2>
+            <h1>Tandon School of Engineering, New York University</h1>
+            <h3>SEP 2023-DEC 2023</h3>
+            <p>Exchange Studies</p>
+            <ul>
+                <li>Visual Design</li>
+                <li>Web Development</li>
+                <li>Interactive Computing</li>
+                <li>Software Engineering</li>
+                <li>Programming Tools</li>
+            </ul>
+        </div>
+        <div class="work">
+            <h1>LTH Faculty of Engineering, Lund University</h1>
+            <h3>AUG 2019-JUN 2024</h3>
+            <p>M.Sc. Mechatronics & B.Sc. Mechanical Engineering</p>
+            <ul>
+                <li>Concurrent Programming, C++, Agile Software Development</li>
+                <li>Real-Time Systems, Applied Mechatronics, Service Robotics</li>
+                <li>Design Techniques, Engineering CAD Analysis, Surface Modeling, Rendering, and 3D</li>
+            </ul>
+        </div>
+        <h1>SKILLS</h1>
+        <div id="skills">
+            <div class="container">
+                <div class="column">
+                    <h2>PROGRAMMING</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>SOFTWARE</h2>
+                    <ul>
+                        <li>PTC Creo</li>
+                        <li>SolidWorks</li>
+                        <li>ANSYS Workbench</li>
+                        <li>Illustrator</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>LANGUAGES</h2>
+                    <ul>
+                        <li>Swedish - Native</li>
+                        <li>English - Fluent</li>
+                        <li>French - Basic</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>CONTACT</h1>
+        <div class="container">
+            <div class="column">
+                <h2>PHONE NUMBER</h2>
+                <h3>+1 (347) 408 7667 </h3>
+                <h2>E-MAIL</h2>
+                <h3>filippa.strandlund@gmail.com</h3>
+            </div>
+            <div class="column">
+                <h2>LINKS</h2>
+                <a href="https://se.linkedin.com/in/filippa-strandlund-9259b11ba">
+                    <img class="logo" src="images/linkedin.png">
+                </a>
+                <a href="https://github.com/filistr">
+                    <img class="logo" src="images/github.png">
+                </a>
+            </div>
+            <div class="column">
+                <img id="profile" src="images/profile.jpeg">
+            </div>
+        </div>
+        <footer>
+            <img src="images/logo.png">
+        </footer>
+    </div>
+    </div>
+
+    <!--Image Sources-->
+    <!--https://commons.wikimedia.org/wiki/File:Github-circle_%28CoreUI_Icons_v1.0.0%29.svg-->
+    <!--https://www.edigitalagency.com.au/linkedin/new-linkedin-logo-black-png/-->
+
+
+</body>
+
+</html>

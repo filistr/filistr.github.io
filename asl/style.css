@@ -1,0 +1,67 @@
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 1vw;
+    background-color: rgb(224, 224, 224);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: (94, 235, 235);
+    transform: scale(1.1, 1.1);
+}
+
+p {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(112, 128, 144);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.info {
+    border: 10px solid rgb(112, 128, 144);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.pinfo {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 22x;
+}
+
+#gameImg {
+    width: 180px;
+    height: 90px;
+    border-radius: 1000px;
+    border: 10px solid rgb(112, 128, 144);
+}
+
+#gameImg:hover {
+    transform:scale(4);
+    border-radius: 10px;
+    border: 10px solid rgb(112, 128, 144); 
+}

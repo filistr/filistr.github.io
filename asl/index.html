@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <title>ASL Alphabet Game</title>
+  <!--p5 core library -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+
+  <!-- ml5 library -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
+  <script type="text/javascript"></script>
+
+  <!-- sketch js -->
+  <script src="sketch.js"></script>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+  <!-- fit all screens-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h1>ASL Alphabet Game</h1>
+  <div id="startInfo">
+    <p> In this application, you get to practice your skills in the American Sign Language Alphabet. Please read the
+      game instructions before starting.
+    </p>
+    <div class="info">
+      <p class="pinfo">1. Start by position your camera in front of a natural background. Do not include anything more
+        in the image but your hand.</p>
+      <img src="images/idle.png">
+    </div>
+    <div class="info">
+      <p class="pinfo"> 2. Fingerspell the displayed letter within the frame.</p>
+      <img src="images/sign.png">
+    </div>
+    <div class="info">
+      <p class="pinfo">3. Press the check button to see if your answer were correct.</p>
+      <img src="images/check.png">
+      <p class="pinfo">If you answer correctly, you earn 10 points. If you answer incorrectly, you lose 5 points. Either
+        way, the game moves on to the next letter. However, the incorrect letters will
+        return later in the game. The user can only win the game by answering correct to all letters at least once.</p>
+        <p class="pinfo">P.S If you need any help during the game, hover over the ellipse below to display all letters.</p>
+        <img id="gameImg" src="images/allLetters.png">
+    </div>
+    <p>Please press START to begin the game.</p>
+  </div>
+  <div id="gameInfo">
+    <p>Fingerspell the letter within the frame and press check to see if you were correct. Please position the camera
+      with a natural background and do not include anything besides your hand in the image. If you need any help with the letter, hover over the ellipse.</p>
+      <img id="gameImg" src="images/allLetters.png">
+  </div>
+  <p id="scoreInfo">Your score: </p>
+  <p id="pointsInfo"></p>
+  <button id="startBtn" onclick="setState(1)">START</button>
+  <button id="checkBtn" onclick="checkIfCorrect()">CHECK</button>
+  <button id="playAgainBtn" onclick="setState(0)">PLAY AGAIN</button>
+</body>
+</html>

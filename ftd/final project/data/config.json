@@ -1,0 +1,248 @@
+{
+  "desert": {
+    "1": {
+      "barSpeed": 4, 
+      "ingredientNum": 10,
+      "ingredientType": ["cupcake"],
+      "ingredientSpeed": 2,
+      "towerType": ["bakery"]
+    },
+
+    "2": {
+      "barSpeed": 3,
+      "ingredientNum": 15,
+      "ingredientType": ["cupcake", "cheese"],
+      "ingredientSpeed": 2.2,
+      "towerType": ["bakery", "burger"]
+    },
+
+    "3": {
+      "barSpeed": 2,
+      "ingredientNum": 20,
+      "ingredientType": ["cupcake", "cheese", "tomato"],
+      "ingredientSpeed": 2.25,
+      "towerType": ["bakery", "burger"]
+    },
+
+    "4": {
+      "barSpeed": 2,
+      "ingredientNum": 20,
+      "ingredientType": ["cupcake", "cheese", "tomato"],
+      "ingredientSpeed": 2.6,
+      "towerType": ["bakery", "burger"]
+    },
+
+    "5": {
+      "barSpeed": 3,
+      "ingredientNum": 25,
+      "ingredientType": ["cupcake", "cheese", "tomato", "rice"],
+      "ingredientSpeed": 2.4,
+      "towerType": ["bakery", "burger", "sushi"]
+    },
+
+    "6": {
+      "barSpeed": 3,
+      "ingredientNum": 25,
+      "ingredientType": ["cupcake", "cheese", "tomato", "rice", "salmon"],
+      "ingredientSpeed": 2.6,
+      "towerType": ["bakery", "burger", "sushi"]
+    },
+
+    "7": {
+      "barSpeed": 3,
+      "ingredientNum": 25,
+      "ingredientType": ["cupcake", "cheese", "tomato", "rice", "salmon"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["bakery", "burger", "sushi", "pizza"]
+    },
+
+    "8": {
+      "barSpeed": 3,
+      "ingredientNum": 30,
+      "ingredientType": ["cupcake", "cheese", "tomato", "rice", "salmon", "sausage"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["bakery", "burger", "sushi", "pizza", "super"]
+    },
+
+    "9": {
+      "barSpeed": 3,
+      "ingredientNum": 40,
+      "ingredientType": ["cupcake", "cheese", "tomato", "rice", "salmon", "sausage", "bread"],
+      "ingredientSpeed": 2.75,
+      "towerType": ["bakery", "burger", "sushi", "pizza", "super"]
+    },
+
+    "10": {
+      "barSpeed": 3,
+      "ingredientNum": 50,
+      "ingredientType": ["cupcake", "cheese", "tomato", "rice", "salmon", "sausage", "bread"],
+      "ingredientSpeed": 3,
+      "towerType": ["bakery", "burger", "sushi", "pizza", "super"]
+    }
+
+  },
+
+  "forest": {
+    "1": {
+      "barSpeed": 6, 
+      "ingredientNum":10,
+      "ingredientType": ["cupcake"],
+      "ingredientSpeed": 2,
+      "towerType": ["bakery"]
+    },
+
+    "2": {
+      "barSpeed": 5,
+      "ingredientNum": 15,
+      "ingredientType": ["cupcake"],
+      "ingredientSpeed": 2.2,
+      "towerType": ["bakery"]
+    },
+
+    "3": {
+      "barSpeed": 2,
+      "ingredientNum": 20,
+      "ingredientType": ["cupcake", "cheese"],
+      "ingredientSpeed": 2.25,
+      "towerType": ["bakery", "burger"]
+    },
+
+    "4": {
+      "barSpeed": 2,
+      "ingredientNum": 20,
+      "ingredientType": ["cupcake", "cheese", "tomato"],
+      "ingredientSpeed": 2.6,
+      "towerType": ["bakery", "burger"]
+    },
+
+    "5": {
+      "barSpeed": 3,
+      "ingredientNum": 25,
+      "ingredientType": ["cupcake", "cheese", "tomato", "rice"],
+      "ingredientSpeed": 2.4,
+      "towerType": ["bakery", "burger", "sushi"]
+    },
+
+    "6": {
+      "barSpeed": 3,
+      "ingredientNum": 25,
+      "ingredientType": ["cupcake", "cheese", "tomato","rice","salmon"],
+      "ingredientSpeed": 2.6,
+      "towerType": ["bakery", "burger", "sushi"]
+    },
+
+    "7": {
+      "barSpeed": 3,
+      "ingredientNum": 25,
+      "ingredientType": ["cupcake", "cheese", "tomato","rice","salmon","bread","sausage"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["bakery", "burger", "sushi", "pizza"]
+    },
+
+    "8": {
+      "barSpeed": 3,
+      "ingredientNum": 30,
+      "ingredientType": ["cupcake", "cheese", "tomato","rice","salmon","bread","sausage"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["bakery", "burger", "sushi", "pizza", "super"]
+    },
+
+    "9": {
+      "barSpeed": 3,
+      "ingredientNum": 40,
+      "ingredientType": ["cupcake", "cheese", "tomato","rice","salmon","bread","sausage"],
+      "ingredientSpeed": 2.75,
+      "towerType": ["bakery", "burger", "sushi", "pizza", "super"]
+    },
+
+    "10": {
+      "barSpeed": 3,
+      "ingredientNum": 50,
+      "ingredientType": ["cupcake", "cheese", "tomato","rice","salmon","bread","sausage"],
+      "ingredientSpeed": 3,
+      "towerType": ["bakery", "burger", "sushi", "pizza", "super"]
+    }  },
+
+  "ice": {
+    "1": {
+      "barSpeed": 4, 
+      "ingredientNum":10,
+      "ingredientType": ["cheese"],
+      "ingredientSpeed": 2,
+      "towerType": ["burger","pizza"]
+    },
+
+    "2": {
+      "barSpeed": 3,
+      "ingredientNum": 20,
+      "ingredientType": ["cheese", "tomato"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger", "pizza"]
+    },
+
+
+    "3": {
+      "barSpeed": 2,
+      "ingredientNum": 30,
+      "ingredientType": ["cheese", "tomato","sausage"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger","pizza"]
+    },
+
+    "4": {
+      "barSpeed": 2,
+      "ingredientNum": 40,
+      "ingredientType": ["cheese", "tomato","sausage","bread"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger","pizza"]
+    },
+
+    "5": {
+      "barSpeed": 1,
+      "ingredientNum": 50,
+      "ingredientType": ["cheese", "tomato","sausage", "bread"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger","pizza"]
+    },
+
+     "6": {
+      "barSpeed": 1,
+      "ingredientNum": 50,
+      "ingredientType": ["cheese","tomato", "sausage", "bread"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger","pizza"]
+    },
+
+    "7": {
+      "barSpeed": 1,
+      "ingredientNum": 60,
+      "ingredientType": ["cheese","tomato", "sausage", "bread","salmon", "rice", "cupcake"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger", "pizza", "sushi", "bakery"]
+    },
+
+    "8": {
+      "barSpeed": 1,
+      "ingredientNum": 70,
+      "ingredientType": ["cheese","tomato", "sausage", "bread","salmon","rice","cupcake"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger", "pizza", "sushi", "bakery", "super"]
+    },
+
+    "9": {
+      "barSpeed": 1,
+      "ingredientNum": 80,
+      "ingredientType": ["cheese","tomato", "sausage", "bread","salmon","rice","cupcake"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger","pizza", "sushi", "bakery", "super"]
+    },
+
+    "10": {
+      "barSpeed": 1,
+      "ingredientNum": 100,
+      "ingredientType": ["cheese","tomato", "sausage", "bread","salmon","rice","cupcake"],
+      "ingredientSpeed": 2.5,
+      "towerType": ["burger","pizza", "sushi", "bakery", "super"]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Food Tower Defense</title>
+        
+        <style>
+        
+        body {
+            background-color: rgb(255,242,204); 
+            text-align: center; 
+            padding-bottom: 3vw; 
+            padding-top: 3vw; 
+             color: rgb(226,106,107); 
+        }
+
+        @font-face {
+            font-family: myFont; 
+            src: url('fonts/FuturaHeavy.otf');
+        }
+
+        * {
+            font-family: myFont;
+        }
+
+        h2 {
+            margin-top: 50px;
+            font-size: 30px; 
+        }
+     
+
+        h1 {
+            font-size: 70px; 
+            text-shadow: -3px -3px rgb(109, 46, 70); 
+        }
+
+        a {
+            color: rgb(226,106,107); 
+        }
+        
+        a:hover {
+             color: rgb(97,76,87); 
+            
+        }
+
+        button {
+            background-color: rgb(226,106,107); 
+            padding: 15px; 
+            border-radius: 20px; 
+            border: none; 
+            color: White; 
+            font-size: 30px; 
+        }
+        
+        button:hover {
+            background-color: rgb(109, 46, 70); 
+        }
+        
+        p {
+            margin-left: 30%;
+            margin-right: 30%; 
+            font-size: 16px;
+            line-height: 23px; 
+            color: rgb(109, 46, 70); 
+        }
+        img {
+            border-radius: 20px;
+            max-width: 20%;
+            max-height: 20%;
+        }
+
+ 
+
+      
+        </style>
+    </head>
+    <body>
+            <div> 
+                <h1> FOOD TOWER DEFENSE</h1> 
+                <h2> INSTRUCTIONS </h2>
+                <p> Note: Please play with console CLOSED!</p>
+                <p> Food Tower Defense game is a variation of Bloons Tower Defense Game where the objective is to capture all of the ingredients.</p>
+                <p> There are three different worlds, desert, forest and ice, and a player chooses a world to start. Each world is constructed with different maps, graphics and starts with various amounts of money, towers and ingredients. </p>
+                <img src='images/instructions/desert.png'></img>
+                <img src='images/instructions/forest.png'></img>
+                <img src='images/instructions/ice.png'></img>
+                <p> Different types of towers will capture different types of ingredients. This is specified when the player hovers over a tower in the control panel on the right. 
+                    The number of ingredients a tower can capture is shown in "()".</p>
+               <img src='images/instructions/hover1.png'></img>
+               <img src='images/instructions/hover2.png'></img>
+
+               <p> Players can also upgrade or sell purchased towers by clicking on a purchased tower. An update means that the tower's target area increases. The player can only update each tower once.</p>
+                <img src='images/instructions/sellupgrade1.png'></img>
+                <p> Players are expected to drag and drop towers strategically along the path. Please note that a tower cannot be placed on the path, obstacles, or another tower. 
+                    The circle around the tower is the tower's target area which indicates in what area the tower can capture ingredients. The target area turns red if the player tries to place the tower in an unallowed location. Players might need to click again to drop the tower at an allowed place.
+                </p>
+                <img src='images/instructions/targetarea1.png'></img>
+                <img src='images/instructions/targetarea2.png'></img>
+                <p> Each world has 10 waves of ingredients. A countdown timer is associated with each wave, and the user has the ability to call the wave before the timer is up and get some bonus coins. The ingredients that might appear in the next wave will be displayed in the timer as well so that the user can plan ahead. Each wave introduces new ingredients, and/or towers or increases the speed of the ingredients.  </p>
+                 <img src='images/instructions/wave1.png'></img>
+                  <img src='images/instructions/wave2.png'></img>
+                <p> Have fun and try to win all the worlds! </p>
+
+                <h2> ASSETS SOURCES </h2>
+                <h3>GENERAL</h3>
+                <p>Drag and Drop Mechanism - Daniel Shiffman <a href="https://editor.p5js.org/codingtrain/sketches/U0R5B6Z88">Draggable Class by codingtrain</a></p>
+                <p>Font - Fontsgeek <a href="https://fontsgeek.com/fonts/Futura-Heavy">Futura Heavy</a></p>
+                <h3>SOUNDS</h3>
+                <p>Collect Ingredient Sound - Freesound <a href="https://freesound.org/people/el_boss/sounds/665181/">Item or Material Pickup Pop 3 out of 3</a></p>
+                <p>Purchase Sound - Mixkit <a href="https://mixkit.co/free-sound-effects/game/?page=2">Winning a coin, video game</a></p>
+                <p>Game Over Sound - Mixkit <a href="https://mixkit.co/free-sound-effects/game/">Arcade space shooter dead notification</a> </p> 
+                <p>Upgrade Sound - Mixkit <a href="https://mixkit.co/free-sound-effects/game/">Arcade video game bonus</a></p>
+                <p>Level Won Sound - Mixkit <a href="https://mixkit.co/free-sound-effects/game/">Casino bling achievement</a></p> 
+                <p>Button Sound - Pixabay <a href="https://pixabay.com/users/38928062/?tab=sound-effects&order=latest&pagi=2">Punch 1 </a></p>
+                <p>Start Round Sound - Pixabay <a href="https://pixabay.com/users/38928062/?tab=sound-effects&order=latest&pagi=2">Punch 3</a></p>
+                <p>Background Music - Pixabay <a href="https://pixabay.com/music/video-games-cruising-down-8bit-lane-159615/">Cruising down 8bit lane</a></p>
+                <p>Sell Sound - Pixabay <a href="https://pixabay.com/users/38928062/?tab=sound-effects&order=latest&pagi=1">Coin donation 2</a></p>
+                <h3>IMAGES</h3>
+                <p>Cactus Image - Amazon <a href="https://www.amazon.com/Advanced-Graphics-Grouping-Double-Sided-Cardboard/dp/B07WPFHV78">Cardboard People Cactus Grouping</a></p>
+                <p>Mountain Image - Pixabay <a href="https://pixabay.com/vectors/everest-mountain-snow-himalayas-7866337/ ">Everest Mountain Snow</a></p>
+                <p>Icicle Image - Pngtree <a href="https://pngtree.com/freepng/icicles-with-snow-winter-decoration_7839369.html">Icicles With Snow Winter Decoration</a></p>
+                <p>Tree Image - Pngtree <a href="https://pngtree.com/freepng/beautiful-tree-2d-type-26_13021443.html">Beautiful Tree 2d Type 26</a></p>
+                <h3>AI-GENERATED IMAGES</h3>
+                <p>All the towers and ingredients had been generated through <a href ="https://www.canva.com/ai-image-generator/"> Canva's Free Online Image AI Generator</a> by using keywords such as "pixelated", "old school" and "2D". </p> 
+            </div>
+            <a href="index.html"> <button>Return</button></a>
+        </div>
+    </body>
+</html>

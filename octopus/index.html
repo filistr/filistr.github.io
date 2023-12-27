@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <title>Octopus Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Work+Sans:wght@500&display=swap"
+    rel="stylesheet">
+
+  <!-- load in the p5 core library -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+
+  <!-- load in the p5 sound library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.js"></script>
+
+  <!-- your custom sketch code -->
+  <script src="sketch.js"></script>
+
+
+  <!-- custom CSS styles for this page -->
+  <style>
+    body {
+      background-color: rgb(222, 221, 221);
+    }
+
+    #container {
+      display: flex;
+      margin-bottom: 100px;
+      border: 10px;
+    }
+
+    .side_menu {
+      margin: auto;
+      text-align: center;
+      width: 18%;
+      margin-top: 0px;
+      margin-bottom: 2px;
+      background-color: white;
+      border-radius: 15px;
+      padding: 1vw;
+    }
+
+    h1 {
+      font-size: 120px;
+      text-align: center;
+      font-family: 'Pixelify Sans', sans-serif;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-family: 'Pixelify Sans', sans-serif;
+    }
+
+    p {
+      font-family: 'Work Sans', sans-serif;
+    }
+
+    #difficulty_dropdown {
+      text-align: center;
+      font-family: 'Work Sans', sans-serif;
+      border-radius: 10px;
+      padding: 0.5vw;
+      background-color: rgb(242, 240, 240);
+    }
+
+
+    button {
+      border-width: 1px;
+      border-radius: 10px;
+      background-color: rgb(242, 240, 240);
+      font-family: 'Work Sans', sans-serif;
+    }
+
+    button:hover {
+      background-color: rgb(222, 221, 221);
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Octopus Game</h1>
+  <div id="container">
+    <div class="side_menu" style="margin-right: 15px;">
+      <div>
+        <h2> Game Instructions</h2>
+        <p> The objective of this game is to collect ink bottles and defeat the fishes by releasing ink on them. The
+          octopus can hold one ink bottle at the time and thereby needs to collect a new bottle for each ink release.
+          The Octopus starts with 50 lives and loses lives when colliding with any fish. The game is over when the
+          octopus has lost all its lives or when all fishes are defeated.
+      </div>
+      <a href="designprocess.html">
+        <div><button>
+            <p>Click here to read about inspiration and design process for this game</p>
+          </button></div>
+      </a>
+    </div>
+    <div id="game_container"> </div>
+    <div class="side_menu" style="margin-left: 15px;">
+      <div>
+        <h2>Control</h2>
+        <p> A - Left </p>
+        <p> D - Right </p>
+        <p> W - Up </p>
+        <p> S - Down </p>
+        <p> Space - Release Ink</p>
+      </div>
+      <div>
+        <h2> Select difficulty to start a new game</h2>
+        <select id="difficulty_dropdown">
+          <option selected>Select difficulty</option>
+          <option value="3">Easy</option>
+          <option value="5">Medium</option>
+          <option value="7">Hard</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

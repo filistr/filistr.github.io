@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Octopus Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Work+Sans:wght@500&display=swap"
+        rel="stylesheet">
+
+    <!-- load in the p5 core library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+
+    <!-- load in the p5 sound library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.js"></script>
+
+    <!-- your custom sketch code -->
+    <script src="sketch.js"></script>
+
+
+    <!-- custom CSS styles for this page -->
+    <style>
+        body {
+            background-color: rgb(222, 221, 221);
+            display: grid;
+        }
+
+        h1 {
+            font-size: 120px;
+            text-align: center;
+            font-family: 'Pixelify Sans', sans-serif;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-family: 'Pixelify Sans', sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 20px;
+        }
+
+        button {
+            border-width: 2px;
+            border-radius: 30px;
+            padding: 1vw;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: rgb(194, 192, 192);
+        }
+
+        .text_container {
+            padding: 5vw;
+            background-color: white;
+            border-radius: 30px;
+            text-align: center;
+            margin: 5vw;
+        }
+
+        img {
+            width: 1000px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1> Octopus Game</h1>
+
+    <div class="text_container">
+        <h2> Inspiration & Design Process</h2>
+        <p> The design process for this game started with creating basic visual and movement functions for the octopus.
+            Furthermore, the fishes were created and the collision detection between the fishes and octopus was
+            implemented.
+            Thereafter, the feature of the octopus releasing ink and the collision detection between fish and ink were
+            created. </p>
+        <img src="images/designprocess/Screen Shot 2023-10-16 at 7.39.15 PM.png" style="width:500px;"> </img>
+        <img src="images/designprocess/Screen Shot 2023-10-16 at 7.43.45 PM.png" style="width:503px;"> </img>
+
+        <p> The detail that a fish might need to collide with ink several times depending on which size it has is
+            inspired from both Bubble Struggle 2 and Age of War. Both these games have features that the game’s obstacle
+            is
+            not defeated immediately, but might need to be attacked several times. In the Octopus game, this kind of
+            feature
+            was implemented through that the fishes shrunk in size each time they collided with ink. When a fish reached
+            a
+            specific size, they were viewed as finally defeated. The feature of the game’s obstacle shrinking in size
+            when
+            getting attacked is also inspired by Bubble Struggle 2 where the bubbles get smaller and smaller each time
+            they
+            are popped. </p>
+        <img src="images/designprocess/Screen Shot 2023-10-16 at 7.31.36 PM.png" style="width:500px;"> </img>
+        <img src="images/designprocess/Screen Shot 2023-10-16 at 7.31.22 PM.png" style="width:500px;"> </img>
+
+        <p> Furthermore, the feature of the octopus needing to pick up an ink bottle in order to release ink
+            was
+            implemented. After the basic game functionality was implemented, more advanced visual features were
+            introduced
+            such as using a sprite sheet for animation and perlin noise for movement. Lastly, the HTML page with the select
+            difficulty dropdown button, regular buttons, game and control instructions was created. </p>
+
+        <img src="images/designprocess/Screen Shot 2023-10-16 at 7.27.10 PM.png"> </img>
+
+        </p>
+    </div>
+    <div class="text_container">
+        <h2> Image & Sound Sources</h2>
+        <a href="https://craftpix.net/freebies/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/">
+            <p>Octopus Sprite Sheet</p>
+        </a>
+        <a href="https://craftpix.net/freebies/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/">
+            <p>Fish Sprite Sheet</p>
+        </a>
+        <a href="https://craftpix.net/freebies/free-effects-for-platformer-pixel-art-pack/">
+            <p>Ink Splash Sprite Sheet</p>
+        </a>
+        <a href="https://craftpix.net/freebies/free-paint-pixel-art-icon-pack/">
+            <p>Ink Bottle Image</p>
+        </a>
+        <a href="https://pixabay.com/photos/underwater-sea-wave-sky-seabed-4286600/">
+            <p>Background Image</p>
+        </a>
+        <a href=https://jesper.nu/spel/rebubbled>
+            <p>Bubble Struggle 2 Image</p>
+        </a>
+        <a href="https://mixkit.co/free-sound-effects/game/">
+            <p>Octopus Hurt Sound</p>
+        </a>
+        <a href="https://mixkit.co/free-sound-effects/game/">
+            <p>Fish Hurt Sound</p>
+        </a>
+        <a href="https://mixkit.co/free-sound-effects/game/">
+            <p>Ink Bottle Pick Up Sound</p>
+        </a>
+        <a href="https://mixkit.co/free-sound-effects/game/">
+            <p>Ink Release Sound</p>
+        </a>
+
+    </div>
+    <a href="assignment03.html" style="text-align: center;"> <button>Click here to go back to game</button></a>
+    </div>
+</body>
+
+</html>

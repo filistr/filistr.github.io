@@ -263,6 +263,15 @@ li {
     color: #34373D;
 }
 
+#am-text {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #34373D;
+}
+
 /*linkedin and github logo*/
 .logo {
     width: 100px;

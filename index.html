@@ -11,15 +11,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Krona+One&family=Krub&family=Kumbh+Sans:wght@300;400&display=swap"
         rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
 </head>
 
 <body>
     <div id="navigation">
-        <button id="btn_home" onclick="scrollToHome()">home</button>
-        <button id="btn_projects" onclick="scrollToProjects()">projects</button>
-        <button id="btn_aboutme" onclick="scrollToAboutMe()">about me</button>
-        <button id="btn_contact" onclick="scrollToContact()">contact</button>
+        <button id="btn_home" onclick="scrollToHome()">HOME</button>
+        <button id="btn_projects" onclick="scrollToProjects()">PROJECTS</button>
+        <button id="btn_aboutme" onclick="scrollToAboutMe()">ABOUT ME</button>
+        <button id="btn_contact" onclick="scrollToContact()">CONTACT</button>
     </div>
     <div id="home">
         <div class="column">
@@ -42,7 +43,8 @@
                 <div class="imgcontainer">
                     <img src="images/asl/asl.svg">
                     <div class="overlay">
-                        <p id="asl-text">The ASL Alphabet Game is a web application aimed at teaching the American Sign
+                        <p id="project-info">The ASL Alphabet Game is a web application aimed at teaching the American
+                            Sign
                             Language Alphabet. It's built using JavaScript, CSS, and HTML, providing a user-friendly
                             interface for interactive learning. The core functionality of the app is powered by a
                             machine learning model, which has been trained on a range of fingerspelled
@@ -58,7 +60,7 @@
                 <div class="imgcontainer">
                     <img src="images/octopus/octopus.svg">
                     <div class="overlay">
-                        <p id="octopus-text">Octupus Game is a simple 2D game created in HTML, CSS, and JavaScript.
+                        <p id="project-info">Octupus Game is a simple 2D game created in HTML, CSS, and JavaScript.
                             Players navigate an octopus, collecting ink bottles to defeat fishes in an underwater
                             setting. The
                             octopus, limited to holding one ink bottle at a time, must strategically gather and use ink.
@@ -74,7 +76,8 @@
                 <div class="imgcontainer">
                     <img src="images/ftd/ftd.svg">
                     <div class="overlay">
-                        <p id="ftd-text">Food Tower Defense is a tower defense game co-developed with Rui Zhang, built
+                        <p id="project-info">Food Tower Defense is a tower defense game co-developed with Rui Zhang,
+                            built
                             using JavaScript and HTML. Inspired by Bloons Tower Defense, our game introduces a gameplay
                             mechanic where players strategically position restaurant towers to capture ingredients. Set
                             across three distinct worlds—desert, forest, and ice—each with its own unique paths and
@@ -90,15 +93,15 @@
         <div class="project">
             <h1>EMBEDDED SERVO SYSTEM</h1>
             <div class="imgcontainer">
-                <img src="images/am/am.png">
+                <img src="images/am/am.svg">
                 <div class="overlay">
-                    <p id="am-text">The Embedded Servo System project spanned over six months as an individual
-                        endeavor, with the aim of creating a functional servo system from scratch, focusing on essential
-                        aspects of industrial electrical engineering and automation. This project
-                        encompassed tasks such as circuit design, microcontroller programming, and signal processing,
-                        resulting in the implementation of a speed control system for a servo motor.
-                        Key achievements included establishing serial communication, designing a customized AVR
-                        board, and fine-tuning dimming control through pulse width modulation (PWM).
+                    <p id="project-info">The Embedded Servo System project spanned over one semester as an individual
+                        project, with the aim of creating a functional servo system from scratch, focusing on essential
+                        aspects of industrial electrical engineering and automation. This project encompassed tasks such
+                        as circuit design, microcontroller programming, and signal processing, resulting in the
+                        implementation of a speed control system for a servo motor. Key achievements included
+                        establishing serial communication, designing a customized AVR board, and fine-tuning dimming
+                        control through pulse width modulation (PWM).
                     </p>
                 </div>
             </div>
@@ -110,7 +113,7 @@
             <div class="imgcontainer">
                 <img src="images/smeg/smeg.svg">
                 <div class="overlay">
-                    <p id="smeg-text">The Smeg Hand Mixer project features a CAD model created in SolidWorks
+                    <p id="project-info">The Smeg Hand Mixer project features a CAD model created in SolidWorks
                         and rendered in PhotoView360. The primary goal was to replicate the real-life Smeg Hand
                         Mixer as closely as possible, showcasing a commitment to precision and detail in both design and
                         rendering.</p>
@@ -122,99 +125,110 @@
             <div class="imgcontainer">
                 <img src="images/jug/jug.svg">
                 <div class="overlay">
-                    <p id="jug-text">The 'Surface Jug' is a CAD model created with surface modeling techniques in
+                    <p id="project-info">The Surface Jug is a CAD model created with surface modeling techniques in
                         SolidWorks and rendered in PhotoView360. Its design is influenced by Georg Jensen's Cobra
                         Collection, demonstrating a combination of artistic inspiration with CAD modeling.</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="aboutme">
-        <div id="basedinsthlm">Based in Stockholm.</div>
-        <div class="education">
-            <h2>EDUCATION</h2>
-            <h1>Tandon School of Engineering, New York University</h1>
-            <h3>SEP 2023-DEC 2023</h3>
-            <p>Exchange Studies</p>
-            <ul>
-                <li>Visual Design</li>
-                <li>Web Development</li>
-                <li>Interactive Computing</li>
-                <li>Software Engineering</li>
-                <li>Programming Tools</li>
-            </ul>
+        <div class="project">
+            <h1>ELECTRIC VEHICLE CHARGER</h1>
+            <div class="imgcontainer">
+                <img src="images/charger/charger.svg">
+                <div class="overlay">
+                    <p id="project-info">T</p>
+                </div>
+
+            </div>
         </div>
-        <div class="education">
-            <h1>LTH Faculty of Engineering, Lund University</h1>
-            <h3>AUG 2019-JUN 2024</h3>
-            <p>M.Sc. Mechatronics & B.Sc. Mechanical Engineering</p>
-            <ul>
-                <li>Concurrent Programming, C++, Agile Software Development</li>
-                <li>Real-Time Systems, Applied Mechatronics, Service Robotics</li>
-                <li>Design Techniques, Engineering CAD Analysis, Surface Modeling, Rendering, and 3D</li>
-            </ul>
+        <div id="aboutme">
+            <div id="basedinsthlm">Based in Stockholm.</div>
+            <div class="education">
+                <h2>EDUCATION</h2>
+                <h1>Tandon School of Engineering, New York University</h1>
+                <h3>SEP 2023-DEC 2023</h3>
+                <p>Exchange Studies</p>
+                <ul>
+                    <li>Visual Design</li>
+                    <li>Web Development</li>
+                    <li>Interactive Computing</li>
+                    <li>Software Engineering</li>
+                    <li>Programming Tools</li>
+                </ul>
+            </div>
+            <div class="education">
+                <h1>LTH Faculty of Engineering, Lund University</h1>
+                <h3>AUG 2019-JUN 2024</h3>
+                <p>M.Sc. Mechatronics & B.Sc. Mechanical Engineering</p>
+                <ul>
+                    <li>Concurrent Programming, C++, Agile Software Development</li>
+                    <li>Real-Time Systems, Applied Mechatronics, Service Robotics</li>
+                    <li>Design Techniques, Engineering CAD Analysis, Surface Modeling, Rendering, and 3D</li>
+                </ul>
+            </div>
+            <h1>SKILLS</h1>
+            <div id="skills">
+                <div class="container">
+                    <div class="column">
+                        <h2>PROGRAMMING</h2>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C/C++</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>SOFTWARE</h2>
+                        <ul>
+                            <li>PTC Creo</li>
+                            <li>SolidWorks</li>
+                            <li>ANSYS Workbench</li>
+                            <li>Illustrator</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>LANGUAGES</h2>
+                        <ul>
+                            <li>Swedish - Native</li>
+                            <li>English - Fluent</li>
+                            <li>French - Basic</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h1>SKILLS</h1>
-        <div id="skills">
+        <div id="contact">
+            <h1>CONTACT</h1>
             <div class="container">
                 <div class="column">
-                    <h2>PROGRAMMING</h2>
-                    <ul>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>C/C++</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
+                    <h2>PHONE NUMBER</h2>
+                    <h3>+46768344477</h3>
+                    <h2>E-MAIL</h2>
+                    <h3><a href="mailto:filippa.strandlund@gmail.com">filippa.strandlund@gmail.com</a></h3>
                 </div>
                 <div class="column">
-                    <h2>SOFTWARE</h2>
-                    <ul>
-                        <li>PTC Creo</li>
-                        <li>SolidWorks</li>
-                        <li>ANSYS Workbench</li>
-                        <li>Illustrator</li>
-                        <li>Figma</li>
-                    </ul>
+                    <h2>LINKS</h2>
+                    <div id="logos">
+                        <a href="https://se.linkedin.com/in/filippa-strandlund-9259b11ba">
+                            <img class="logo" src="images/linkedin.png">
+                        </a>
+                        <a href="https://github.com/filistr">
+                            <img class="logo" src="images/github.png">
+                        </a>
+                    </div>
                 </div>
                 <div class="column">
-                    <h2>LANGUAGES</h2>
-                    <ul>
-                        <li>Swedish - Native</li>
-                        <li>English - Fluent</li>
-                        <li>French - Basic</li>
-                    </ul>
+                    <img id="profile" src="images/profile.jpeg">
                 </div>
             </div>
+            <footer>
+                <img src="images/logo.png">
+            </footer>
         </div>
-    </div>
-    <div id="contact">
-        <h1>CONTACT</h1>
-        <div class="container">
-            <div class="column">
-                <h2>PHONE NUMBER</h2>
-                <h3>+46768344477</h3>
-                <h2>E-MAIL</h2>
-                <h3>filippa.strandlund@gmail.com</h3>
-            </div>
-            <div class="column">
-                <h2>LINKS</h2>
-                <a href="https://se.linkedin.com/in/filippa-strandlund-9259b11ba">
-                    <img class="logo" src="images/linkedin.png">
-                </a>
-                <a href="https://github.com/filistr">
-                    <img class="logo" src="images/github.png">
-                </a>
-                <footer>
-                    <img src="images/logo.png">
-                </footer>
-            </div>
-            <div class="column">
-                <img id="profile" src="images/profile.jpeg">
-            </div>
-        </div>
-    </div>
     </div>
 
     <!--Image Sources-->

@@ -1,6 +1,8 @@
 body {
     margin: 5%;
     background: linear-gradient(in hsl, white, rgb(224, 224, 224));
+    display: grid;
+    font-family: 'Kumbh sans', sans-serif;
 }
 
 /*home*/
@@ -52,7 +54,7 @@ footer img:hover {
 
 #navigation button {
     font-family: 'Kumbh sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     margin: 7px;
     color: #34373D;
     background-color: transparent;
@@ -80,6 +82,13 @@ footer img:hover {
     font-family: 'Krona One', sans-serif;
     font-size: 120px;
     color: #34373D;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#aboutme {
+    margin-bottom: 0px;
+    bottom: 0px;
 }
 
 /*about me section*/
@@ -135,6 +144,7 @@ footer img:hover {
     position: relative;
     max-width: 100%;
     max-height: 100%;
+    justify-content: center;
 }
 
 .slogancontainer {
@@ -148,8 +158,8 @@ footer img:hover {
     border-radius: 30px;
     max-width: 100%;
     max-height: 100%;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
 }
 
 /*display more infomation about a project*/
@@ -165,7 +175,6 @@ footer img:hover {
     left: 0;
     right: 0;
     background: rgb(255, 255, 255, 0.9);
-    color: #34373D;
     visibility: hidden;
     opacity: 0;
     border-radius: 30px;
@@ -182,111 +191,76 @@ footer img:hover {
 footer img {
     width: 150px;
     height: 150px;
-    margin-top: 200px;
+    margin-bottom: 0px;
 }
 
 /*TEXT SETTINGS*/
 /* heading */
 h1 {
     font-size: 80px;
-    font-family: 'Kumbh sans', sans-serif;
     color: #34373D;
 }
 
 /* subheading */
 h2 {
     font-size: 40px;
-    font-family: 'Kumbh sans', sans-serif;
     color: #5a5857;
 }
 
 /* date */
 h3 {
-    font-family: 'Kumbh sans', sans-serif;
     color: #5a5857;
     font-size: 20px;
 }
 
 /*general text*/
 p {
-    font-family: 'Kumbh sans', sans-serif;
+    font-family: 'Montserrat';
     font-size: 30px;
+    color: #5a5857;
+}
+
+/*links*/
+a {
     color: #5a5857;
 }
 
 /*bullet points*/
 li {
-    font-family: 'Kumbh sans', sans-serif;
     font-size: 30px;
     color: #5a5857;
     text-align: left;
 }
 
 /*project information*/
-#smeg-text {
+#project-info {
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
-    color: #34373D;
-}
-
-#jug-text {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    color: #34373D;
-}
-
-#asl-text {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    color: #34373D;
-}
-
-#ftd-text {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    color: #34373D;
-}
-
-#octopus-text {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    color: #34373D;
-}
-
-#am-text {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    color: #34373D;
+    color: #5a5857;
 }
 
 /*linkedin and github logo*/
+#logos {
+    display: flex;
+    justify-content: center;
+    gap: 10%; 
+}
+
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     opacity: 20%;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .logo:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition-duration: 0.7s;
+}
+
+a:hover { 
+    transition-duration: 0.5s;
+    color: #5a5857;
 }

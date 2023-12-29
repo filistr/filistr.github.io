@@ -147,6 +147,19 @@ footer img:hover {
     justify-content: center;
 }
 
+.videocontainer {
+    border-radius: 30px; 
+    overflow: hidden; 
+    position: relative;
+}
+
+.videocontainer video {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
 .slogancontainer {
     position: relative;
     max-width: 100%;
@@ -164,6 +177,11 @@ footer img:hover {
 
 /*display more infomation about a project*/
 .imgcontainer:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.videocontainer:hover .overlay {
     visibility: visible;
     opacity: 1;
 }
@@ -246,7 +264,7 @@ li {
 #logos {
     display: flex;
     justify-content: center;
-    gap: 10%; 
+    gap: 10%;
 }
 
 .logo {
@@ -260,7 +278,7 @@ li {
     transition-duration: 0.7s;
 }
 
-a:hover { 
+a:hover {
     transition-duration: 0.5s;
     color: #5a5857;
 }

@@ -1,34 +1,73 @@
-https://raw.githubusercontent.com/filistr/filistr.github.io/main/ess/main.c
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-  <title>Octopus Game</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Work+Sans:wght@500&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Servo System</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        pre {
+            overflow-x: auto;
+            padding: 10px;
+            background-color: #F1F1F1;
+            border-radius: 5px;
+        }
 
-  <!-- p5 core library -->
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+        code {
+            display: block;
+            white-space: pre;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            color: #34373D;
+            tab-size: 4; 
+        }
 
-  <!-- p5 sound library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.js"></script>
+        code::-webkit-scrollbar {
+            width: 10px;
+        }
 
-  <!-- custom sketch code -->
-  <script src="sketch.js"></script>
+        code::-webkit-scrollbar-thumb {
+            background-color: #888;
+            border-radius: 5px;
+        }
 
-
-  <!-- custom CSS styles for this page -->
-  <style>
-  </style>
-
+        code::-webkit-scrollbar-thumb:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- First code snippet -->
+    <div class="code-container">
+        <p class="code-title">Embedded Servo System (main.c)</p>
+        <pre>
+            <code data-src="https://raw.githubusercontent.com/filistr/filistr.github.io/main/ess/main.c"></code>
+        </pre>
+    </div>
 
+    <!-- Second code snippet -->
+    <div class="code-container">
+        <p class="code-title">Serial Communication (serial.c)</p>
+        <pre>
+            <code data-src="https://raw.githubusercontent.com/filistr/filistr.github.io/main/ess/serial.c"></code>
+        </pre>
+    </div>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const codeElements = document.querySelectorAll("code[data-src]");
+            codeElements.forEach((element) => {
+                fetch(element.getAttribute("data-src"))
+                    .then((response) => response.text())
+                    .then((data) => {
+                        data = data.replace(/\t/g, "    ");
+                        element.textContent = data;
+                    });
+            });
+        });
+    </script>
 </body>
 
 </html>

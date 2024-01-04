@@ -56,11 +56,10 @@ body {
 
 /*navigation bar*/
 #navigation {
+    top: 1%;
     position: fixed;
-    top: 10px;
-    right: 17%;
-    max-width: 100%;
     z-index: 1000;
+    right: 1%;
 }
 
 #navigation button {
@@ -71,6 +70,10 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.95);
+    padding: 0.5vw;
+    border-radius: 30px;
+    width: 110px;
 }
 
 #navigation button:hover {
@@ -108,8 +111,8 @@ body {
 
 /*about me section*/
 .education {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 12%;
+    margin-bottom: 12%;
 }
 
 /*skill secion*/
@@ -221,8 +224,8 @@ body {
 
 /*contact section*/
 #contact {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 12%;
+    margin-bottom: 12%;
 }
 
 #fs {

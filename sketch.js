@@ -22,7 +22,7 @@ window.addEventListener('scroll', () => {
     document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
   }, false);
 
-  const ftdVideo = document.getElementById("ftd-video");
+const ftdVideo = document.getElementById("ftd-video");
 let videoPlayed = false;
 
 window.addEventListener("scroll", () => {

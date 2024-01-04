@@ -307,3 +307,15 @@ a:hover {
     transition-duration: 0.5s;
     color: #5a5857;
 }
+
+@media screen and (max-width: 768px) {
+    .column {
+        flex: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .column {
+        flex: 50%;
+    }
+}

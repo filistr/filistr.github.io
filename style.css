@@ -97,6 +97,10 @@ body {
     margin-bottom: 12%;
 }
 
+#basedinsthlm p {
+    font-size: 25px;
+}
+
 #aboutme {
     margin-bottom: 0px;
     bottom: 0px;

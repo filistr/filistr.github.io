@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
+
 <head>
-  <title>ASL Alphabet Game</title>
+  <title>ASL Alphabet Tutor</title>
   <!--p5 core library -->
   <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
 
@@ -27,35 +28,36 @@
 </head>
 
 <body>
-  <h1>ASL Alphabet Game</h1>
+  <h1>ASL Alphabet Tutor</h1>
   <div id="startInfo">
-    <p> In this application, you get to practice your skills in the American Sign Language Alphabet. Please read the
-      game instructions before starting.
+    <p> Practice your skills in American Sign Language Alphabet with this application. Please read the following
+      instructions before starting.
     </p>
     <div class="info">
-      <p class="pinfo">1. Start by position your camera in front of a natural background. Do not include anything more
-        in the image but your hand.</p>
+      <p class="pinfo">1. Position your camera against a natural background.</p>
       <img src="images/idle.png">
     </div>
     <div class="info">
-      <p class="pinfo"> 2. Fingerspell the displayed letter within the frame.</p>
+      <p class="pinfo"> 2. Fingerspell the displayed letter within the frame. Ensure only your hand is in the image.</p>
       <img src="images/sign.png">
     </div>
     <div class="info">
-      <p class="pinfo">3. Press the check button to see if your answer were correct.</p>
+      <p class="pinfo">3. Press CHECK to verify if your answer is correct.</p>
       <img src="images/check.png">
-      <p class="pinfo">If you answer correctly, you earn 10 points. If you answer incorrectly, you lose 5 points. Either
-        way, the game moves on to the next letter. However, the incorrect letters will
-        return later in the game. The user can only win the game by answering correct to all letters at least once.</p>
-        <p class="pinfo">P.S If you need any help during the game, hover over the ellipse below to display all letters.</p>
-        <img id="gameImg" src="images/allLetters.png">
+      <p class="pinfo">Earn 10 points for a correct answer and lose 5 for an incorrect one. The game progresses to the
+        next letter regardless. Incorrectly answered letters will reappear later in the game. You successfully complete
+        the tutor session by correctly fingerspelling each letter at least once.</p>
+      <p class="pinfo">Tip: Hover over the ellipse below for help with the letters.
+      </p>
+      <img id="gameImg" src="images/allLetters.png">
     </div>
-    <p>Please press START to begin the game.</p>
+    <p>Please press START to begin.</p>
   </div>
   <div id="gameInfo">
-    <p>Fingerspell the letter within the frame and press check to see if you were correct. Please position the camera
-      with a natural background and do not include anything besides your hand in the image. If you need any help with the letter, hover over the ellipse.</p>
-      <img id="gameImg" src="images/allLetters.png">
+    <p>Fingerspell the letter within the frame and press CHECK to see if you are correct. Ensure the camera is
+      positioned against a natural background with only your hand in view. Hover over the ellipse for letter assistance.
+    </p>
+    <img id="gameImg" src="images/allLetters.png">
   </div>
   <p id="scoreInfo">Your score: </p>
   <p id="pointsInfo"></p>
@@ -63,4 +65,5 @@
   <button id="checkBtn" onclick="checkIfCorrect()">CHECK</button>
   <button id="playAgainBtn" onclick="setState(0)">PLAY AGAIN</button>
 </body>
+
 </html>

@@ -37,8 +37,8 @@ body {
     animation-iteration-count: 1;
 }
 
-/*footer*/
-footer img:hover {
+
+#fs:hover {
     animation: rotate 5s infinite;
     animation-iteration-count: 1;
 }
@@ -89,10 +89,9 @@ footer img:hover {
     font-family: 'Krona One', sans-serif;
     font-size: 120px;
     color: #34373D;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 12%;
+    margin-bottom: 12%;
 }
-
 
 #aboutme {
     margin-bottom: 0px;
@@ -108,8 +107,8 @@ footer img:hover {
 /*profile picture */
 #profile {
     border-radius: 30px;
-    max-width: 90%;
-    max-height: 90%;
+    width: 80%;
+    max-height: 100%;
 }
 
 /*skill secion*/
@@ -145,6 +144,18 @@ footer img:hover {
 
 .column {
     flex: 33.33%;
+}
+
+#aboutme .column {
+    flex: 50%;
+}
+
+#aboutme .container {
+    margin-top: 3%;
+    text-align: left;
+}
+#aboutme .container img {
+    margin: 15% 15%;
 }
 
 /*container for all images*/
@@ -215,10 +226,10 @@ footer img:hover {
     margin-bottom: 100px;
 }
 
-/*footer*/
-footer img {
-    width: 150px;
-    height: 150px;
+#fs {
+    margin: auto; 
+    width: 70%;
+    max-height: 100%;
     margin-bottom: 0px;
 }
 

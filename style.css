@@ -5,7 +5,7 @@ body {
     font-family: 'Kumbh sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1300px;
+    max-width: 1100px;
 }
 
 /*home*/
@@ -104,13 +104,6 @@ body {
     margin-bottom: 100px;
 }
 
-/*profile picture */
-#profile {
-    border-radius: 30px;
-    width: 80%;
-    max-height: 100%;
-}
-
 /*skill secion*/
 #skills h2 {
     text-align: left;
@@ -147,15 +140,18 @@ body {
 }
 
 #aboutme .column {
-    flex: 50%;
+    flex: 30%;
 }
 
 #aboutme .container {
-    margin-top: 3%;
     text-align: left;
 }
-#aboutme .container img {
-    margin: 15% 15%;
+
+/*profile picture */
+#profile {
+    border-radius: 30px;
+    width: 75%;
+    max-height: 100%;
 }
 
 /*container for all images*/

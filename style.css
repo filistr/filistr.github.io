@@ -12,6 +12,7 @@ body {
 /*home*/
 #home {
     display: flex;
+    margin-bottom: 5%;
 }
 
 #home img {

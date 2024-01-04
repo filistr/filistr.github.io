@@ -58,7 +58,7 @@ body {
 #navigation {
     position: fixed;
     top: 10px;
-    right: 100px;
+    right: 17%;
     max-width: 100%;
     z-index: 1000;
 }
@@ -199,14 +199,9 @@ body {
     box-shadow: 3px 5px 5px #E5E4E4;
 }
 
-
 /*display more infomation about a project*/
+.videocontainer:hover .overlay,
 .imgcontainer:hover .overlay {
-    visibility: visible;
-    opacity: 1;
-}
-
-.videocontainer:hover .overlay {
     visibility: visible;
     opacity: 1;
 }
@@ -280,8 +275,8 @@ li {
 
 /*project information*/
 #project-info {
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;

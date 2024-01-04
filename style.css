@@ -28,8 +28,9 @@ body {
 
 #home h2 {
     position: absolute;
-    top: 60%;
+    top: 85%;
     color: #E5E4E4;
+    font-size: 25px;
 }
 
 #home img:hover {

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 5%;
     background: linear-gradient(in hsl, white, rgb(224, 224, 224));

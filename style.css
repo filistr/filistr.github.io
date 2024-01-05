@@ -278,12 +278,12 @@ li {
 
 /*project information*/
 #project-info {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
+    text-align: left;
     color: #5a5857;
+}
+
+.project-info-container {
+    padding: 6vw;
 }
 
 /*linkedin and github logo*/

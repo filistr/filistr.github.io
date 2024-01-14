@@ -1,6 +1,6 @@
 # filistr.github.io repository
 
-This repository contains the source code for the projects featured on the website.
+This repository contains the source code for the projects featured on filistr.github.io.
 
 ## Code Projects
 

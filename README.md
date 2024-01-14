@@ -5,29 +5,22 @@ Welcome to the GitHub repository for my portfolio website. This repository conta
 ## Projects
 
 ### Octopus Game
-- [Live Demo](octopus game/index.html)
-- [Source Code](https://github.com/filistr/octopus-game)
+- [Source Code]([https://github.com/filistr/octopus-game](https://github.com/filistr/filistr.github.io/tree/main/octopus%20game))
 
 ### ASL Alphabet Tutor
-- [Live Demo](asl tutor/index.html)
-- [Source Code](https://github.com/filistr/asl-alphabet-tutor)
+- [Source Code]([https://github.com/filistr/asl-alphabet-tutor](https://github.com/filistr/filistr.github.io/tree/main/asl%20tutor))
 
 ### Food Tower Defense
-- [Live Demo](food tower defense/index.html)
-- [Source Code](https://github.com/filistr/food-tower-defense)
+- [Source Code]([https://github.com/filistr/food-tower-defense](https://github.com/filistr/filistr.github.io/tree/main/food%20tower%20defense))
 
 ### Embedded Servo System
-- [Project Details](https://github.com/filistr/filistr.github.io/tree/main/embedded%20server%20system)
-- [Source Code](https://github.com/filistr/embedded-servo-system)
+- [Source Code]([https://github.com/filistr/embedded-servo-system](https://github.com/filistr/filistr.github.io/tree/main/embedded%20server%20system))
 
 ### Smeg Hand Mixer
 - CAD model created in SolidWorks and rendered in PhotoView360.
-- [Source Code](https://github.com/filistr/smeg-hand-mixer)
 
 ### Surface Jug
 - CAD model created with surface modeling techniques in SolidWorks, inspired by Georg Jensen's Cobra Collection.
-- [Source Code](https://github.com/filistr/surface-jug)
 
 ### Electric Vehicle Charger
 - CAD model of an electric vehicle charger created in Creo Parametric, rendered in Creo Render Studio.
-- [Source Code](https://github.com/filistr/electric-vehicle-charger)

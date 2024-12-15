@@ -4,7 +4,6 @@ html {
 
 body {
     margin: 5%;
-    background: linear-gradient(in hsl, white, rgb(224, 224, 224));
     display: grid;
     font-family: 'Kumbh sans', sans-serif;
     margin-left: auto;

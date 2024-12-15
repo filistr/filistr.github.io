@@ -66,3 +66,44 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const sloganText = document.getElementById("slogan-text");
+    const textContent = "where coding meets creativity";
+
+    let typingTimeouts = [];
+    let isTyping = false;
+
+    function typeEffect() {
+        typingTimeouts.forEach(clearTimeout);
+        typingTimeouts = [];
+        isTyping = true;
+
+        sloganText.textContent = "";
+        let i = 0;
+
+        function type() {
+            if (i < textContent.length) {
+                sloganText.textContent += textContent.charAt(i);
+                i++;
+                const timeout = setTimeout(type, 100);
+                typingTimeouts.push(timeout);
+            } else {
+                isTyping = false;
+            }
+        }
+        type();
+    }
+
+    typeEffect();
+
+    const scrollTopButton = document.getElementById("scroll-top");
+    scrollTopButton.addEventListener("click", () => {
+        if (!isTyping) typeEffect();
+    });
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY === 0 && !isTyping) {
+            typeEffect();
+        }
+    });
+});

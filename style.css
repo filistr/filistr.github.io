@@ -12,7 +12,7 @@ body {
     max-width: 1100px;
 }
 
-/*home*/
+/* home */
 #home {
     display: flex;
     margin-bottom: 15%;
@@ -47,14 +47,14 @@ body {
     animation-iteration-count: 1;
 }
 
-/*rotate animaton for logo home and footer*/
+/* rotate animaton for logo home and footer */
 @keyframes rotate {
     50% {
         transform: rotate(180deg);
     }
 }
 
-/*navigation bar*/
+/* navigation bar */
 #navigation {
     top: 1%;
     position: fixed;
@@ -86,12 +86,12 @@ body {
     color: #D5D0C8;
 }
 
-/*create spacing between projects*/
+/* create spacing between projects */
 .project {
     margin-bottom: 12%;
 }
 
-/*based in stockholm text*/
+/* based in stockholm text */
 #basedinsthlm {
     font-family: 'Krona One', sans-serif;
     font-size: 120px;
@@ -109,18 +109,18 @@ body {
     bottom: 0px;
 }
 
-/*about me section*/
+/* about me section */
 .education {
     margin-top: 12%;
     margin-bottom: 12%;
 }
 
-/*skill secion*/
+/* skill secion */
 #skills h2 {
     text-align: left;
 }
 
-/*column display for home, skills and contact*/
+/* column display for home, skills and contact */
 .container {
     display: flex;
     text-align: center;
@@ -158,14 +158,14 @@ body {
     text-align: left;
 }
 
-/*profile picture */
+/* profile picture */
 #profile {
     border-radius: 30px;
     width: 75%;
     max-height: 100%;
 }
 
-/*container for all images*/
+/* container for all images */
 .imgcontainer {
     position: relative;
     max-width: 100%;
@@ -202,7 +202,7 @@ body {
     box-shadow: 3px 5px 5px #E5E4E4;
 }
 
-/*display more infomation about a project*/
+/* display more infomation about a project */
 .videocontainer:hover .overlay,
 .imgcontainer:hover .overlay {
     visibility: visible;
@@ -222,7 +222,7 @@ body {
     transition: opacity 1s, visibility .2s;
 }
 
-/*contact section*/
+/* contact section */
 #contact {
     margin-top: 12%;
     margin-bottom: 12%;
@@ -257,26 +257,26 @@ h3 {
     font-size: 20px;
 }
 
-/*general text*/
+/* general text */
 p {
     font-family: 'Montserrat';
     font-size: 25px;
     color: #5a5857;
 }
 
-/*links*/
+/* links */
 a {
     color: #5a5857;
 }
 
-/*bullet points*/
+/* bullet points */
 li {
     font-size: 25px;
     color: #5a5857;
     text-align: left;
 }
 
-/*project information*/
+/* project information */
 #project-info {
     text-align: left;
     color: #5a5857;
@@ -286,7 +286,7 @@ li {
     padding: 6vw;
 }
 
-/*linkedin and github logo*/
+/* linkedin and github logo */
 #logos {
     display: flex;
     justify-content: center;
@@ -320,4 +320,26 @@ a:hover {
     .column {
         flex: 50%;
     }
+}
+
+/* scroll to top button */
+#scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #34373D;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scroll-top:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
 }

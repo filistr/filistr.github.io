@@ -57,6 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
+            } else {
+                entry.target.classList.remove('visible');
             }
         });
     });
@@ -65,6 +67,38 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(section);
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const repeatSections = document.querySelectorAll('.fade-in');
+    const basedInSthlm = document.querySelector('.fade-in-basedinsthlm');
+
+    const repeatObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            } else {
+                entry.target.classList.remove('visible');
+            }
+        });
+    });
+
+    const permanentObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    });
+
+    repeatSections.forEach(section => {
+        repeatObserver.observe(section);
+    });
+
+    if (basedInSthlm) {
+        permanentObserver.observe(basedInSthlm);
+    }
+});
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const sloganText = document.getElementById("slogan-text");
